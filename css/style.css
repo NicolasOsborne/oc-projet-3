@@ -134,8 +134,9 @@ nav {
 .infos-recherche__searchbar__input {
   display: flex;
   border: none;
-  text-align: center;
+  padding-left: 24px;
   justify-content: center;
+  align-items: center;
   height: 49px;
   width: 195px;
   color: black;
@@ -193,7 +194,7 @@ nav {
   color: black;
   font-size: 17px;
   font-weight: 700;
-  cursor: pointer;
+  cursor: point;
 }
 
 .infos-recherche__filterbar__button:hover {
