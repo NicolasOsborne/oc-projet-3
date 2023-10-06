@@ -411,9 +411,6 @@ nav {
   font-weight: 700;
 }
 
-.footer__a-propos a {
-}
-
 .footer__hebergements {
   display: flex;
   flex-direction: column;
@@ -428,9 +425,6 @@ nav {
   font-weight: 700;
 }
 
-.footer__hebergements a {
-}
-
 .footer__assistance {
   display: flex;
   flex-direction: column;
@@ -443,9 +437,6 @@ nav {
   margin-bottom: 0;
   font-size: 18px;
   font-weight: 700;
-}
-
-.footer__assistance a {
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
