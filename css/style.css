@@ -1,6 +1,7 @@
 /****** General ***********/
 * {
   font-family: 'Raleway', sans-serif;
+  margin: 0;
 }
 
 :root {
@@ -236,14 +237,12 @@ nav {
   border-radius: 15px;
   padding: 30px;
   box-sizing: border-box;
+  margin-bottom: 35px;
 }
 
 /****** Hebergements ***********/
 .hebergements {
   width: 65%;
-}
-
-.hebergements__title {
 }
 
 .hebergements__title h2 {
@@ -341,6 +340,112 @@ nav {
 
 .populaires-cards .card-rating {
   margin-bottom: 5px;
+}
+
+/****** Activités ***********/
+
+.activites {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  gap: 30px;
+}
+
+.activites__title h2 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.activites__cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.activites__cards .card {
+  display: flex;
+  flex-direction: column;
+  height: 439px;
+  width: 298px;
+  padding: 0;
+}
+
+.activites__cards img {
+  height: 380px;
+  width: 298px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.activites__cards .card-content {
+  margin-left: 19px;
+}
+
+.activites__cards .card-content h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/****** Footer ***********/
+
+.footer {
+  margin-top: 35px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: var(--main-bg-color);
+  gap: 30px;
+}
+
+.footer__a-propos {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+}
+
+.footer__a-propos h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.footer__a-propos a {
+}
+
+.footer__hebergements {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+}
+
+.footer__hebergements h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.footer__hebergements a {
+}
+
+.footer__assistance {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+}
+
+.footer__assistance h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.footer__assistance a {
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
