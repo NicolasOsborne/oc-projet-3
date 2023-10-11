@@ -180,6 +180,7 @@ nav {
   text-align: center;
   font-size: 18px;
   font-weight: 700;
+  cursor: pointer;
 }
 
 #infos-recherche__searchbar__button__mobile {
@@ -464,9 +465,6 @@ nav {
 
   .activites__cards img {
     height: 200px;
-    width: 100%;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
   }
 }
 
@@ -498,6 +496,11 @@ nav {
     padding-top: 0;
   }
 
+  .navItem:hover {
+    border-bottom: 2px solid var(--main-color);
+    border-top: none;
+  }
+
   .infos-recherche__searchbar {
     width: 100%;
   }
@@ -519,11 +522,6 @@ nav {
     color: white;
   }
 
-  .navItem:hover {
-    border-bottom: 2px solid var(--main-color);
-    border-top: none;
-  }
-
   .infos-recherche {
     padding-left: 20px;
     padding-right: 20px;
@@ -532,8 +530,8 @@ nav {
   }
 
   .infos-recherche__informations__iconInfo {
-    padding-left: 3px;
-    padding-right: 3px;
+    padding-left: 2px;
+    padding-right: 2px;
   }
 
   .infos-recherche__filterbar__buttonsContainer {
