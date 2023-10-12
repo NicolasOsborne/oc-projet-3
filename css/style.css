@@ -71,6 +71,11 @@ h4 {
   font-weight: 700;
 }
 
+p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
 /******* Header *******/
 header {
   display: flex;
@@ -116,8 +121,6 @@ nav {
 }
 
 .infos-recherche__head p {
-  font-size: 16px;
-  font-weight: 400;
   margin-top: 8px;
 }
 
@@ -147,11 +150,10 @@ nav {
 .infos-recherche__searchbar__input {
   display: flex;
   border: none;
-  padding-left: 24px;
   justify-content: center;
   align-items: center;
   height: 49px;
-  width: 195px;
+  width: 147px;
   color: black;
   font-size: 18px;
   font-weight: 700;
@@ -192,11 +194,6 @@ nav {
   flex-direction: row;
   align-items: center;
   gap: 15px;
-}
-
-.infos-recherche__filterbar h4 {
-  font-size: 18px;
-  font-weight: 700;
 }
 
 .infos-recherche__filterbar__buttonsContainer {
@@ -243,11 +240,6 @@ nav {
   width: 24px;
   border: 1px solid #d9d9d9;
   font-size: 10px;
-}
-
-.infos-recherche__informations p {
-  font-size: 16px;
-  font-weight: 400;
 }
 
 /****** Hebergements And Populaires ***********/
