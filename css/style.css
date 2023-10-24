@@ -66,11 +66,6 @@ a {
   color: var(--main-bg-color);
 }
 
-h4 {
-  font-size: 18px;
-  font-weight: 700;
-}
-
 p {
   font-size: 16px;
   font-weight: 400;
@@ -114,14 +109,19 @@ nav {
   flex-direction: column;
 }
 
-.infos-recherche__head h1 {
+.infos-recherche h1 {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 0;
 }
 
-.infos-recherche__head p {
+.infos-recherche p {
   margin-top: 8px;
+}
+
+.infos-recherche__filterbar h2 {
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .infos-recherche__searchbar {
@@ -201,6 +201,7 @@ nav {
   flex-direction: row;
   align-items: center;
   gap: 15px;
+  padding: 0;
 }
 
 .infos-recherche__filterbar__button {
@@ -209,7 +210,7 @@ nav {
   align-items: center;
   gap: 10px;
   height: 50px;
-  padding: 4px 19px;
+  padding: 0px 19px 0px 19px;
   border: 2px solid #d9d9d9;
   border-radius: 25px;
   background-color: white;
@@ -301,9 +302,11 @@ nav {
   margin-top: 8px;
 }
 
-.hebergements__more h4 {
+.hebergements__more {
   margin-top: 30px;
   margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 /****** Populaires ***********/
@@ -374,22 +377,27 @@ nav {
   padding: 0;
 }
 
+.activites__cards a {
+  height: 100%;
+}
+
 .activites__cards img {
   height: 380px;
   width: 100%;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
+  object-fit: cover;
 }
 
 .activites__cards .card-content {
-  margin-left: 19px;
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding: 19px;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 /****** Footer ***********/
 
-.footer {
+footer {
   margin-top: 35px;
   display: flex;
   flex-direction: row;
@@ -402,6 +410,11 @@ nav {
   gap: 15px;
   padding: 20px;
   width: 33%;
+}
+
+.footer__submenu p {
+  font-size: 18px;
+  font-weight: 700;
 }
 
 /*** Le code ci-dessous correspond à la version responsive uniquement ***/
@@ -521,20 +534,28 @@ nav {
     align-items: center;
   }
 
+  .infos-recherche__head {
+    width: 100%;
+  }
+
   .infos-recherche__informations__iconInfo {
     padding-left: 2px;
     padding-right: 2px;
   }
 
+  .infos-recherche__filterbar {
+    width: 100%;
+  }
+
   .infos-recherche__filterbar__buttonsContainer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 20px;
+    justify-content: space-around;
+    width: 100%;
   }
 
   .infos-recherche__filterbar__button {
-    width: 45%;
+    width: 32%;
     font-size: 14px;
     justify-content: center;
   }
@@ -621,7 +642,7 @@ nav {
     width: 100%;
   }
 
-  .footer {
+  footer {
     display: flex;
     flex-direction: column;
     padding: 30px;
