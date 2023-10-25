@@ -374,12 +374,12 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 22%;
+  height: 100%;
   padding: 0;
 }
 
 .activites__cards a {
-  height: 100%;
+  width: 22%;
 }
 
 .activites__cards img {
@@ -648,6 +648,10 @@ footer {
   }
 
   .activites__cards .card {
+    width: 100%;
+  }
+
+  .activites__cards a {
     width: 100%;
   }
 
