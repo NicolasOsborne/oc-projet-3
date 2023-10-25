@@ -559,7 +559,7 @@ footer {
   .infos-recherche__filterbar__buttonsContainer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
   }
 
