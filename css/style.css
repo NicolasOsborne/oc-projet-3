@@ -373,6 +373,7 @@ nav {
 .activites__cards .card {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   width: 22%;
   padding: 0;
 }
@@ -390,9 +391,12 @@ nav {
 }
 
 .activites__cards .card-content {
-  padding: 19px;
   font-size: 16px;
   font-weight: 700;
+  display: flex;
+  align-items: center;
+  padding: 0px 19px;
+  height: calc(439px - 380px);
 }
 
 /****** Footer ***********/
@@ -470,6 +474,11 @@ footer {
 
   .activites__cards img {
     height: 200px;
+  }
+
+  .activites__cards .card-content {
+    height: 70px;
+    padding: 10px 19px;
   }
 }
 
@@ -640,6 +649,15 @@ footer {
 
   .activites__cards .card {
     width: 100%;
+  }
+
+  .activites__cards img {
+    height: 141px;
+  }
+
+  .activites__cards .card-content {
+    padding: 0px 19px;
+    height: calc(200px - 141px);
   }
 
   footer {
